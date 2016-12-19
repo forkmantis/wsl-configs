@@ -1,3 +1,8 @@
+# add personal bin to path if it exists
+if [ -d "$HOME/bin" ] ; then
+  PATH="$PATH:$HOME/bin"
+fi
+
 # aliases for changing directories easily
 alias d="dirs -v"
 alias pd="pushd"
