@@ -1,3 +1,7 @@
+# Some git shortcuts
+alias glp="git log --pretty=format:\"%Cred%h%Creset%x09%C(bold blue)<%an>%Creset%x09%s %Cgreen(%cr)%Creset\""
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
 # add personal bin to path if it exists
 if [ -d "$HOME/bin" ] ; then
   PATH="$PATH:$HOME/bin"
